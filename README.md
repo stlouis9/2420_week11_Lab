@@ -2,7 +2,7 @@
 <p>Justin Tan 
 Robert St. Louis</p>
 ## Usage
-To setup the backup script a config file is necessary
+<p>To setup the backup script a config file is necessary</p>
 
 ### Config File
 <p>
