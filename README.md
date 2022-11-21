@@ -19,6 +19,10 @@ IP=157.230.17.142</code></pre>
 To add additional directories to backup, add a directory with a space to deliniate to the <code>DIRS</code> variable. 
 </p>
 
+<p>
+Your IP variable will be different from ours, it should be the IP address that the server you are backing up to lives at. 
+</p>
+
 ### backup-script
 <p>
     Place the backup script in <code>/opt/backup-script/</code>
