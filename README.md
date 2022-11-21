@@ -1,12 +1,12 @@
 # 2420 Week 11 Lab Readme
-Justin Tan 
-Robert St. Louis
+<p>Justin Tan 
+Robert St. Louis</p>
 ## Usage
 To setup the backup script a config file is necessary
 
 ### Config File
 <p>
-    Place your backup.cfg file in $HOME/bin
+    Place your <code>backup.cfg</code> file in <code>$HOME/bin</code>
 </p>
 <p>
     Your config file should look like this :
@@ -15,13 +15,13 @@ To setup the backup script a config file is necessary
 IP=157.230.17.142</code></pre>
 
 <p>
-    To add additional directories to backup, add a directory with a space to deliniate to the <code>DIRS</code> variable
+To add additional directories to backup, add a directory with a space to deliniate to the <code>DIRS</code> variable. 
 </p>
 
 ### backup-script
 <p>
-    Place the backup script in /opt/backup-script/
-    using <code>chmod +x</code> make the file executable
+    Place the backup script in <code>/opt/backup-script/</code>
+    use <code>chmod +x backup-script</code> to make the file executable
 </p>
 
 ### backup.service and backup.timer
