@@ -1,0 +1,9 @@
+[Unit]
+Description=uses rsync to backup files from directories every friday at 01:00
+
+[Service]
+Type=oneshot
+ExecStart=/opt/backup-script/backup-script
+
+[Install]
+WantedBy=multi-user.target

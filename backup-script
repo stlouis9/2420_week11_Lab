@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. $HOME/bin/backup.cfg
+
+rsync -aPv -e "ssh -i $HOME/.ssh/S1_key" $DIRS robert@$IP:backup_files/
+
+exit 0
