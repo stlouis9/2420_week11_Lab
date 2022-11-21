@@ -1,6 +1,7 @@
 # 2420 Week 11 Lab Readme
 <p>Justin Tan 
 Robert St. Louis</p>
+
 ## Usage
 <p>To setup the backup script a config file is necessary</p>
 
