@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer to start the weather_app service which gets the weather everyday at 05:00
+
+[Timer]
+OnCalendar=*-*-* 05:00:00
+Persistent=True
+
+[Install]
+WantedBy=timers.target
