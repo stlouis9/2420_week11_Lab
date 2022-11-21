@@ -1,0 +1,9 @@
+[Unit]
+Description=use curl and wttr to get the weather everyay at 05:00
+
+[Service]
+Type=oneshot
+ExecStart=/opt/weather_app/weather_app
+
+[Install]
+WantedBy=multi-user.target
